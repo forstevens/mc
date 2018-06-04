@@ -1,0 +1,11 @@
+tz-apply3:
+  container_name: tz-apply3
+  image: registry.op.tiaozhan.com/tz-apply3:latest
+  restart: always
+  hostname: tz-apply3
+  ports:
+    - 127.0.0.1:80:80
+  env_file: .env
+  extends:
+    file: extends.yml
+    service: tz-apply3

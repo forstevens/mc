@@ -1,0 +1,23 @@
+[
+    {
+        "userid": "bill412", 
+        "user_name": "董江彬", 
+        "phone": 15000000000, 
+        "auth": 3, 
+        "sms": 0
+    }, 
+    {
+        "userid": "dhr1698", 
+        "user_name": "丁浩然", 
+        "phone": 13605277695, 
+        "auth": 3, 
+        "sms": 0
+    },
+    {
+        "userid": "t949214686",
+        "user_name": "宋斌",
+        "phone": 15129026975,
+        "auth": 1, 
+        "sms": 0
+    }
+]

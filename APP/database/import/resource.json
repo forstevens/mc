@@ -1,0 +1,562 @@
+[
+    {
+        "id": 1, 
+        "resource_name": "会议室", 
+        "place_id": 1, 
+        "start": 8, 
+        "end": 23, 
+        "device": 0, 
+        "capacity": 1000, 
+        "other": "other"
+    }, 
+    {
+        "id": 2, 
+        "resource_name": "青年之家", 
+        "place_id": 1, 
+        "start": 8, 
+        "end": 23, 
+        "device": 0, 
+        "capacity": 1000, 
+        "other": "other"
+    }, 
+    {
+        "id": 3, 
+        "resource_name": "宪梓堂", 
+        "place_id": 1, 
+        "start": 8, 
+        "end": 23, 
+        "device": 0, 
+        "capacity": 1000, 
+        "other": "other"
+    }, 
+    {
+        "id": 4, 
+        "resource_name": "团委投影仪", 
+        "place_id": 1, 
+        "start": 8, 
+        "end": 23, 
+        "device": 1, 
+        "capacity": 0, 
+        "other": "other"
+    }, 
+    {
+        "id": 5, 
+        "resource_name": "科技及媒体类社团公共空间", 
+        "place_id": 1, 
+        "start": 8, 
+        "end": 23, 
+        "device": 0, 
+        "capacity": 1000, 
+        "other": "other"
+    }, 
+    {
+        "id": 6, 
+        "resource_name": "505体育馆", 
+        "place_id": 1, 
+        "start": 8, 
+        "end": 23, 
+        "device": 0, 
+        "capacity": 1000, 
+        "other": "other"
+    }, 
+    {
+        "id": 7, 
+        "resource_name": "思源南厅", 
+        "place_id": 1, 
+        "start": 8, 
+        "end": 23, 
+        "device": 0, 
+        "capacity": 1000, 
+        "other": "other"
+    }, 
+    {
+        "id": 8, 
+        "resource_name": "思源东厅", 
+        "place_id": 1, 
+        "start": 8, 
+        "end": 23, 
+        "device": 0, 
+        "capacity": 1000, 
+        "other": "other"
+    }, 
+    {
+        "id": 9, 
+        "resource_name": "思源西厅", 
+        "place_id": 1, 
+        "start": 8, 
+        "end": 23, 
+        "device": 0, 
+        "capacity": 1000, 
+        "other": "other"
+    }, 
+    {
+        "id": 10, 
+        "resource_name": "思源东侧二楼排练厅", 
+        "place_id": 1, 
+        "start": 8, 
+        "end": 23, 
+        "device": 0, 
+        "capacity": 1000, 
+        "other": "other"
+    }, 
+    {
+        "id": 11, 
+        "resource_name": "桂厅", 
+        "place_id": 1, 
+        "start": 8, 
+        "end": 23, 
+        "device": 0, 
+        "capacity": 1000, 
+        "other": "other"
+    }, 
+    {
+        "id": 12, 
+        "resource_name": "会议室102", 
+        "place_id": 2, 
+        "start": 8, 
+        "end": 23, 
+        "device": 0, 
+        "capacity": 1000, 
+        "other": "other"
+    }, 
+    {
+        "id": 13, 
+        "resource_name": "三楼活动室", 
+        "place_id": 2, 
+        "start": 8, 
+        "end": 23, 
+        "device": 0, 
+        "capacity": 1000, 
+        "other": "other"
+    }, 
+    {
+        "id": 14, 
+        "resource_name": "10楼活动室", 
+        "place_id": 2, 
+        "start": 8, 
+        "end": 23, 
+        "device": 0, 
+        "capacity": 1000, 
+        "other": "other"
+    }, 
+    {
+        "id": 15, 
+        "resource_name": "11楼会议室", 
+        "place_id": 2, 
+        "start": 8, 
+        "end": 23, 
+        "device": 0, 
+        "capacity": 1000, 
+        "other": "other"
+    }, 
+    {
+        "id": 16, 
+        "resource_name": "小厨房", 
+        "place_id": 2, 
+        "start": 8, 
+        "end": 23, 
+        "device": 0, 
+        "capacity": 1000, 
+        "other": "other"
+    }, 
+    {
+        "id": 17, 
+        "resource_name": "电视机", 
+        "place_id": 2, 
+        "start": 8, 
+        "end": 23, 
+        "device": 1, 
+        "capacity": 0, 
+        "other": "other"
+    }, 
+    {
+        "id": 18, 
+        "resource_name": "123会议室（20人）", 
+        "place_id": 3, 
+        "start": 8, 
+        "end": 23, 
+        "device": 0, 
+        "capacity": 20, 
+        "other": "other"
+    }, 
+    {
+        "id": 19, 
+        "resource_name": "125会议室（20人）", 
+        "place_id": 3, 
+        "start": 8, 
+        "end": 23, 
+        "device": 0, 
+        "capacity": 20, 
+        "other": "other"
+    }, 
+    {
+        "id": 20, 
+        "resource_name": "116会议室", 
+        "place_id": 3, 
+        "start": 8, 
+        "end": 23, 
+        "device": 0, 
+        "capacity": 1000, 
+        "other": "other"
+    }, 
+    {
+        "id": 21, 
+        "resource_name": "128会议室（50人）", 
+        "place_id": 3, 
+        "start": 8, 
+        "end": 23, 
+        "device": 0, 
+        "capacity": 50, 
+        "other": "other"
+    }, 
+    {
+        "id": 22, 
+        "resource_name": "127排练厅", 
+        "place_id": 3, 
+        "start": 8, 
+        "end": 23, 
+        "device": 0, 
+        "capacity": 1000, 
+        "other": "other"
+    }, 
+    {
+        "id": 23, 
+        "resource_name": "生活自助室（20人）", 
+        "place_id": 3, 
+        "start": 8, 
+        "end": 23, 
+        "device": 0, 
+        "capacity": 20, 
+        "other": "other"
+    }, 
+    {
+        "id": 24, 
+        "resource_name": "崇实园大厅", 
+        "place_id": 3, 
+        "start": 8, 
+        "end": 23, 
+        "device": 0, 
+        "capacity": 1000, 
+        "other": "other"
+    }, 
+    {
+        "id": 25, 
+        "resource_name": "崇实大厅二楼", 
+        "place_id": 3, 
+        "start": 8, 
+        "end": 23, 
+        "device": 0, 
+        "capacity": 1000, 
+        "other": "other"
+    },
+    {
+        "id": 26, 
+        "resource_name": "崇实后院", 
+        "place_id": 3, 
+        "start": 8, 
+        "end": 23, 
+        "device": 0, 
+        "capacity": 1000, 
+        "other": "other"
+    }, 
+    {
+        "id": 27, 
+        "resource_name": "移动投影仪", 
+        "place_id": 3, 
+        "start": 8, 
+        "end": 23, 
+        "device": 1, 
+        "capacity": 0, 
+        "other": "other"
+    }, 
+    {
+        "id": 28, 
+        "resource_name": "大厅投影仪", 
+        "place_id": 3, 
+        "start": 8, 
+        "end": 23, 
+        "device": 1, 
+        "capacity": 0, 
+        "other": "other"
+    }, 
+    {
+        "id": 29, 
+        "resource_name": "大厅电视", 
+        "place_id": 3, 
+        "start": 8, 
+        "end": 23, 
+        "device": 1, 
+        "capacity": 0, 
+        "other": "other"
+    }, 
+    {
+        "id": 30, 
+        "resource_name": "大厅音响", 
+        "place_id": 3, 
+        "start": 8, 
+        "end": 23, 
+        "device": 1, 
+        "capacity": 0, 
+        "other": "other"
+    }, 
+    {
+        "id": 31, 
+        "resource_name": "文治报告厅", 
+        "place_id": 4, 
+        "start": 8, 
+        "end": 23, 
+        "device": 0, 
+        "capacity": 1000, 
+        "other": "other"
+    }, 
+    {
+        "id": 32, 
+        "resource_name": "党团活动室",
+        "place_id": 4, 
+        "start": 8, 
+        "end": 23, 
+        "device": 0, 
+        "capacity": 1000, 
+        "other": "other"
+    }, 
+    {
+        "id": 33, 
+        "resource_name": "西区活动中心一楼排练厅", 
+        "place_id": 5, 
+        "start": 8, 
+        "end": 23, 
+        "device": 0, 
+        "capacity": 1000, 
+        "other": "other"
+    }, 
+    {
+        "id": 34, 
+        "resource_name": "西区活动中心二楼会议室", 
+        "place_id": 5, 
+        "start": 8, 
+        "end": 23, 
+        "device": 0, 
+        "capacity": 1000, 
+        "other": "other"
+    }, 
+    {
+        "id": 35, 
+        "resource_name": "西区活动中心一楼羽毛球场", 
+        "place_id": 5, 
+        "start": 8, 
+        "end": 23, 
+        "device": 0, 
+        "capacity": 1000, 
+        "other": "other"
+    }, 
+    {
+        "id": 36, 
+        "resource_name": "西区活动中心一楼舞台", 
+        "place_id": 5, 
+        "start": 8, 
+        "end": 23, 
+        "device": 0, 
+        "capacity": 1000, 
+        "other": "other"
+    }, 
+    {
+        "id": 37, 
+        "resource_name": "011大会议室（40-50人）", 
+        "place_id": 6, 
+        "start": 8, 
+        "end": 23, 
+        "device": 0, 
+        "capacity": 50, 
+        "other": "other"
+    }, 
+    {
+        "id": 38, 
+        "resource_name": "005小会议室（20人）", 
+        "place_id": 6, 
+        "start": 8, 
+        "end": 23, 
+        "device": 0, 
+        "capacity": 20, 
+        "other": "other"
+    }, 
+    {
+        "id": 39, 
+        "resource_name": "研究生书园", 
+        "place_id": 7, 
+        "start": 8, 
+        "end": 23, 
+        "device": 0, 
+        "capacity": 1000, 
+        "other": "other"
+    }, 
+    {
+        "id": 40, 
+        "resource_name": "研会办公室227", 
+        "place_id": 7, 
+        "start": 8, 
+        "end": 23, 
+        "device": 0, 
+        "capacity": 1000, 
+        "other": "other"
+    }, 
+    {
+        "id": 41, 
+        "resource_name": "思源115办公室", 
+        "place_id": 7, 
+        "start": 8, 
+        "end": 23, 
+        "device": 0, 
+        "capacity": 1000, 
+        "other": "other"
+    }, 
+    {
+        "id": 42, 
+        "resource_name": "思源116办公室", 
+        "place_id": 7, 
+        "start": 8, 
+        "end": 23, 
+        "device": 0, 
+        "capacity": 1000, 
+        "other": "other"
+    }, 
+    {
+        "id": 43, 
+        "resource_name": "思源117会议室", 
+        "place_id": 7, 
+        "start": 8, 
+        "end": 23, 
+        "device": 0, 
+        "capacity": 1000, 
+        "other": "other"
+    }, 
+    {
+        "id": 44, 
+        "resource_name": "一号排练厅", 
+        "place_id": 8, 
+        "start": 8, 
+        "end": 23, 
+        "device": 0, 
+        "capacity": 1000, 
+        "other": "other"
+    }, 
+    {
+        "id": 45, 
+        "resource_name": "二号排练厅", 
+        "place_id": 8, 
+        "start": 8, 
+        "end": 23, 
+        "device": 0, 
+        "capacity": 1000, 
+        "other": "other"
+    }, 
+    {
+        "id": 46, 
+        "resource_name": "三号排练厅", 
+        "place_id": 8, 
+        "start": 8, 
+        "end": 23, 
+        "device": 0, 
+        "capacity": 1000, 
+        "other": "other"
+    }, 
+    {
+        "id": 47, 
+        "resource_name": "四号排练厅", 
+        "place_id": 8, 
+        "start": 8, 
+        "end": 23, 
+        "device": 0, 
+        "capacity": 1000, 
+        "other": "other"
+    }, 
+    {
+        "id": 48, 
+        "resource_name": "外院大厅", 
+        "place_id": 8, 
+        "start": 8, 
+        "end": 23, 
+        "device": 0, 
+        "capacity": 1000, 
+        "other": "other"
+    }, 
+    {
+        "id": 49, 
+        "resource_name": "思源吉他社", 
+        "place_id": 8, 
+        "start": 8, 
+        "end": 23, 
+        "device": 0, 
+        "capacity": 1000, 
+        "other": "other"
+    }, 
+    {
+        "id": 50, 
+        "resource_name": "思源爱乐协会", 
+        "place_id": 8, 
+        "start": 8, 
+        "end": 23, 
+        "device": 0, 
+        "capacity": 1000, 
+        "other": "other"
+    }, 
+    {
+        "id": 51, 
+        "resource_name": "排球馆01男子场", 
+        "place_id": 9, 
+        "start": 8, 
+        "end": 23, 
+        "device": 0, 
+        "capacity": 1000, 
+        "other": "other"
+    }, 
+    {
+        "id": 52, 
+        "resource_name": "排球馆02女子场", 
+        "place_id": 9, 
+        "start": 8, 
+        "end": 23, 
+        "device": 0, 
+        "capacity": 1000, 
+        "other": "other"
+    }, 
+    {
+        "id": 53, 
+        "resource_name": "107会议室（50人）", 
+        "place_id": 10, 
+        "start": 8, 
+        "end": 23, 
+        "device": 0, 
+        "capacity": 50, 
+        "other": "other"
+    }, 
+    {
+        "id": 54, 
+        "resource_name": "122会议室（15人）", 
+        "place_id": 10, 
+        "start": 8, 
+        "end": 23, 
+        "device": 0, 
+        "capacity": 15, 
+        "other": "other"
+    },
+    {
+        "id": 55,
+        "resource_name": "西区活动中心一楼健身房",
+        "place_id": 5, 
+        "device": 0, 
+        "start": 8, 
+        "end": 23, 
+        "capacity": 1000,
+        "other": "other"
+    },
+    {
+        "id": 56,
+        "resource_name": "思源学生活动中心主场地",
+        "place_id": 1, 
+        "device": 0, 
+        "start": 8, 
+        "end": 23, 
+        "capacity": 1000,
+        "other": "other"
+    }
+]

@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1, 
+        "place_name": "校团委", 
+        "location": {
+            "x": "x_location", 
+            "y": "y_location"
+        }, 
+        "committee": 1
+    }, 
+    {
+        "id": 2, 
+        "place_name": "启德书院", 
+        "location": {
+            "x": "x_location", 
+            "y": "y_location"
+        }, 
+        "committee": 0
+    }, 
+    {
+        "id": 3, 
+        "place_name": "崇实书院", 
+        "location": {
+            "x": "x_location", 
+            "y": "y_location"
+        }, 
+        "committee": 0
+    }, 
+    {
+        "id": 4, 
+        "place_name": "文治书院", 
+        "location": {
+            "x": "x_location", 
+            "y": "y_location"
+        }, 
+        "committee": 0
+    }, 
+    {
+        "id": 5, 
+        "place_name": "西区活动中心", 
+        "location": {
+            "x": "x_location", 
+            "y": "y_location"
+        }, 
+        "committee": 1
+    }, 
+    {
+        "id": 6, 
+        "place_name": "社联", 
+        "location": {
+            "x": "x_location", 
+            "y": "y_location"
+        }, 
+        "committee": 0
+    }, 
+    {
+        "id": 7, 
+        "place_name": "研究生会", 
+        "location": {
+            "x": "x_location", 
+            "y": "y_location"
+        }, 
+        "committee": 0
+    }, 
+    {
+        "id": 8, 
+        "place_name": "学生艺术团", 
+        "location": {
+            "x": "x_location", 
+            "y": "y_location"
+        }, 
+        "committee": 0
+    }, 
+    {
+        "id": 9, 
+        "place_name": "文体中心", 
+        "location": {
+            "x": "x_location", 
+            "y": "y_location"
+        }, 
+        "committee": 0
+    }, 
+    {
+        "id": 10, 
+        "place_name": "仲英书院", 
+        "location": {
+            "x": "x_location", 
+            "y": "y_location"
+        }, 
+        "committee": 0
+    }
+]

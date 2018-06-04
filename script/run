@@ -1,0 +1,21 @@
+#!/bin/sh
+cat << EOF > /etc/nginx/fastcgi.env
+fastcgi_param PHP_APP_DEBUG "$APP_DEBUG";
+fastcgi_param PHP_ONLINE_DEBUG "$ONLINE_DEBUG";
+fastcgi_param PHP_DEBUG_MODULE "$DEBUG_MODULE";
+fastcgi_param PHP_DB_HOSTNAME "$DB_HOSTNAME";
+fastcgi_param PHP_DB_DBNAME "$DB_DBNAME";
+fastcgi_param PHP_DB_USERNAME "$DB_USERNAME";
+fastcgi_param PHP_DB_PASSWORD "$DB_PASSWORD";
+fastcgi_param PHP_SMS_API "$SMS_API";
+fastcgi_param PHP_SMS_USERNAME "$SMS_USERNAME";
+fastcgi_param PHP_SMS_PASSWORD "$SMS_PASSWORD";
+fastcgi_param PHP_URL_FE "$URL_FE";
+fastcgi_param PHP_URL_BE "$URL_BE";
+EOF
+
+sed -i "7s/curl_exec,//" /etc/php7/php.ini
+
+crond
+
+exec "supervisord" "-c" "/etc/supervisor.conf"

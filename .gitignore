@@ -1,0 +1,12 @@
+# docker files
+version
+Makefile
+*.yml
+
+# for visual studio code
+.vscode
+.vscode/*
+.idea
+
+# for enviroment
+.env

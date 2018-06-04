@@ -1,0 +1,44 @@
+#!/bin/sh
+#
+# Build Script
+#
+# This file is a hook script excuted while building.
+# You can specify some commands to do.
+# 
+# NOTICE: You should return 0 when no error occurred.
+#
+# Copyright (C) 2017-2018 Tiaozhan Net. All rights reserved.
+#########################################################
+
+set -e
+
+. /usr/lib/log
+info "Apply3:Building start..."
+
+### temporary disable apk upgrade for faster build
+
+## apk upgrade
+# apk update
+# apk upgrade
+
+#### NOW YOU CAN BEGIN FROM HERE ####
+
+mv /runtime/config/website.conf /etc/nginx/sites-enabled/website.conf
+chown -R nginx:nginx /runtime/APP/runtime
+
+sleep 1s # sleep 1s to hack bug
+
+# auto disable out-to-date applies
+cat << EOF >> /etc/crontabs/root
+30 3 * * * php /runtime/think apply3:disable
+EOF
+
+#### THE END OF YOUR SCRIPT ####
+
+## cleaning
+# rm -rf /var/cache/apk/* /tmp/* /var/tmp/*
+# mkdir /var/tmp/nginx    # or nginx won't start
+
+info "Apply3:Building complete."
+
+exit

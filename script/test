@@ -1,0 +1,42 @@
+#!/bin/sh
+#
+# Test Script
+#
+# This file is a hook script excuted while testing.
+# You can specify some commands to do.
+# 
+# NOTICE: You should return 0 when no error occurred.
+#
+# Copyright (C) 2017-2018 Tiaozhan Net. All rights reserved.
+#########################################################
+
+set -e
+
+. /usr/lib/log
+
+info "Apply3:Testing start..."
+
+info "Starting supervisord..."
+sed -i 's/nodaemon=true/nodaemon=false/' /etc/supervisor.conf
+/usr/bin/supervisord -c /etc/supervisor.conf 
+
+sleep 3
+
+nginx -V
+php7 -v
+php-fpm7 -v
+echo "supervisord: "`supervisord -v`
+
+# check if the debug module closed
+curl -s http://localhost/debug
+
+curl -s http://localhost
+
+#### NOW YOU CAN BEGIN FROM HERE ####
+
+
+#### THE END OF YOUR SCRIPT ####
+
+info "Apply3:Testing complete."
+
+exit

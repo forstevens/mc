@@ -1,0 +1,14 @@
+<IfModule mod_rewrite.c>
+  Options +FollowSymlinks -Multiviews
+
+  Header add Access-Control-Allow-Origin "http://apply.tiaozhan.fe.com"
+  Header add Access-Control-Allow-Credentials "true"
+  Header add Access-Control-Allow-Methods "GET, POST, DELETE, PUT"
+
+  RewriteEngine On
+
+  RewriteRule ^api/v3/(.+)\.json$ static/$1.json [L]
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteRule ^(.*)$ index.php/$1 [QSA,PT,L]
+</IfModule>

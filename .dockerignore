@@ -1,0 +1,37 @@
+# docker build
+.dockerignore
+configure
+docker-compose.yml
+docker-compose.yml.example
+Dockerfile
+extends.yml
+Makefile
+
+# document
+docs
+readme.md
+
+# for visual studio code
+.vscode
+.vscode/*
+
+# for enviroment
+.env
+.env.example
+APP/.env
+
+# for debug commands
+local.bat
+database_init.sql
+tiaozhan_apply.sql
+run.bat
+
+# unuseful database
+APP/database
+
+# document root
+APP/public/.htaccess
+APP/public/static/.gitignore
+
+# runtime files
+APP/runtime/*
